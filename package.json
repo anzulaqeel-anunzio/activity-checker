@@ -1,0 +1,26 @@
+{
+    "name": "awesome-activity-checker",
+    "version": "1.0.0",
+    "description": "Checks for stale GitHub repositories in an Awesome List",
+    "main": "index.js",
+    "bin": {
+        "awesome-activity-checker": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "awesome-list",
+        "activity",
+        "stale",
+        "github"
+    ],
+    "author": "Anzul Aqeel",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.2.0",
+        "chalk": "^4.1.2",
+        "commander": "^9.4.1",
+        "dayjs": "^1.11.7"
+    }
+}
